@@ -1,0 +1,5 @@
+## About Course Scheduler
+This is the final project from my Object Oriented Programming with Web-Based Applications course. From an administrative perspective, the course schedular allows you to add and remove semesters, courses, and students. Courses can be added to specific semesters, and students can attempt to add courses to their schedules. Courses have a `seats` variable that describes the number of students the course can hold. If `seats > 0`, the student is enrolled in the course. Otherwise, they are waitlisted. If an enrolled student drop a course, the first waitlisted student will be added, or, if none are waitlisted, `seats` will be incrimented accordingly.
+
+## Running
+This project must be run in `Apache NetBeans` to work properly. Furthermore, the project requires a `Derby Database` to hold course, student, and semester information. 
